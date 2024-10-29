@@ -1,11 +1,4 @@
-import React from "react";
-import { useState, useEffect } from "react";
-import './App.css';
-import SearcIcon from './search.svg';
-import MovieCard from "./MovieCard";
-//IP KEY : cf2afb80
 
-const API_URL = 'https://www.omdbapi.com?apikey=cf2afb80';
 
 const App = () => {
     const [searchTerm,  setSearchTerm] = useState('');
